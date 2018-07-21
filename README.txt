@@ -1,7 +1,9 @@
-# Genome-wide patterns of sequence divergence of protein-coding genes between Drosophila buzzatii and D. mojavensis #
+#### Genome-wide patterns of sequence divergence of protein-coding genes between Drosophila buzzatii and D. mojavensis #####
+Paper published in Journal of Heredity
+
 
 Files and scripts for the protein coding genes divergence exploration in cactophilic Drosophila #
-#
+
 Authors: Yolanda Guillén, Sònia Casillas and Marta Coronado
 
 CSV files:
@@ -23,7 +25,7 @@ divergence_table.csv
   breadth: Number of life stages (0-5) in which each gene is expressed using a minimu FPKM threshold of 1 #
   normexp: Maximum FPKM value observed across 5 life stages #
 
-#
+############
 
 divergence_window_100kb_table.csv #
 
@@ -32,3 +34,10 @@ Position: Range non-overlapping window in Drosophila mojavensis. Position 1 refe
 Chr: Chromosome #
 variable: dn, ds or omega #
 value: value of dn, ds or omega #
+
+#############################
+
+R scripts:
+
+code_divergence.R --> R script including regression models for dn, ds and omega parameters
+plot_Figure_3.R --> R script to create Figure 3 from main paper
