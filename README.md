@@ -1,6 +1,7 @@
 # Genome-wide patterns of sequence divergence of protein-coding genes between Drosophila buzzatii and D. mojavensis #
 
-Files and scripts for the protein coding genes divergence exploration in cactophilic Drosophila
+Files and scripts for the protein coding genes divergence exploration in cactophilic Drosophila #
+#
 Authors: Yolanda Guillén, Sònia Casillas and Marta Coronado
 
 CSV files:
